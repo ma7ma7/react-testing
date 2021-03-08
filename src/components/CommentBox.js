@@ -2,7 +2,14 @@ import React, { Component } from "react";
 
 class CommentBox extends Component {
   render() {
-    return <p>This is a comment box</p>;
+    return (
+      <form>
+        <h4>Enter Comment</h4>
+        <textarea />
+        <br />
+        <button>Add</button>
+      </form>
+    );
   }
 }
 
