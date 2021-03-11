@@ -25,7 +25,6 @@ class CommentBox extends Component {
   };
 
   render() {
-    console.log(actions);
     return (
       <form onSubmit={this.handelSubmit}>
         <h4>Enter Comment</h4>
